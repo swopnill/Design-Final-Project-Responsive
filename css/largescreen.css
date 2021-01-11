@@ -459,13 +459,14 @@
                     color:springgreen;
                     text-decoration: none;
                 }
+
                 
                 .sr-right{
                     display: block;
                     float: right;
                     width: 50%;
                     margin-left: 2.5%;
-                    margin-right:2.5%
+                    margin-right:0%
                 }
                 .sr-right-header{
                     color: silver;
@@ -474,7 +475,7 @@
                 
                 .sr-right-container{
                     color: silver;
-                    padding-left: 0%;
+                    padding-left: 10%;
                     padding-right: 0%;
                 }
                 
@@ -502,43 +503,51 @@
                 .six-down-left{
                 width:50%;
                 float: left;
+                height: 100px;
+                overflow: hidden;
                 }
                 
-                .six-down-left input[type="text"]{
+                .input-parent{
+                    width: 100%;
+                    position: relative;
+                    
+                }
+
+                .input-parent input{
                     background-color:#2e2e2e;
                     color: silver;
-                    width:50%;
-                    height:25px;
                     border:none;    
                     outline: none;
-                    padding-left: 1%;
-                    padding-top: 15px;
+                    height: 36px;
+                    width: 70%;
+                    
                 }
-                
-                .six-down-left input[type="submit"]{
-                    width:40px;
-                    height:37px;
-                    background-image: url("/images/searcharrow.png");
-                    background-repeat:no-repeat;  
+
+                .img-child{
+                    position: absolute;
+                    right:22%;
+                    top: 0%;
+                    height: 50px;
                 }
-                
                 .six-down-right{
                 width:50%;
                 float: right;
                 overflow: hidden;
                 }
                 
+                
+
                 .sr-conto{
                     max-width: 100%;
                     overflow: hidden;
                 }
+
                 .sr-conto ul{
                     list-style-type: none;
-                    padding-left: 2 0%;
                 }
                 .sr-conto li{
-                    float: left;
-                    padding-left: 10%;
+                    float: right;
+                    padding-left: 2%;
                   
                 }
 /**************Footer**************/
@@ -572,14 +581,14 @@ color: silver;
 font-size: medium;
 }
 .footer-right li {
-float: left;
+float: right;
 }
 .footer-right li a{
 text-decoration: none;
 color: silver;
 }
 
-
+.
    
 
 
