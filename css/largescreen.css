@@ -518,7 +518,7 @@
                 .six-down-left input[type="submit"]{
                     width:40px;
                     height:37px;
-                    background-image: url(/images/searcharrow.png);
+                    background-image: url("/images/searcharrow.png");
                     background-repeat:no-repeat;  
                 }
                 
