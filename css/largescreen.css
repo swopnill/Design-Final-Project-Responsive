@@ -1,9 +1,11 @@
+
+
 /**************************************************************************************/
 /******************************Desktop*************************************************/
 /**************************************************************************************/
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 1000px) {
     .whole-page-wrapper{
-        min-width: 75em;
+        min-width: 100%;
     }
 /**************************************************************************************/
 /******************************Header*************************************************/
@@ -160,44 +162,46 @@
 
     
     /************Body Second*******/
-    .body-second-wrapper{
-        width: 100%;
-        overflow: hidden;
-        background-color: black;
-        padding-bottom: 2%;
-        padding-top: 2%;
-    }
-    .onsale-product{
-        width:67.368421%;
-        margin:0 auto; 
-        overflow: hidden;   
-    }
-    .onsale-listing{
-        width: 100%;
-        overflow: hidden;
-        display: block;
-        position: relative;
-    }
-    .onsale-listing img{
-        max-width: 80%;
-    }
-    .onsale-listing ul{
-        list-style: none;
-        overflow: hidden; 
-    }
-    .onsale-listing li{
-       float: left;
-        padding: 0%;
-    }
+.body-second-wrapper{
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
 
-    .onsale-1{
-        position: relative;
-    }
-    .on-sale-banner{
-        position: absolute;
-        top:30%;
-        left:20%
-    }
+.onsale-product{
+    width:75%;
+    margin: 0 auto;
+}
+
+ .onsale-listing ul{
+     list-style: none;
+     overflow: hidden; 
+}
+
+.onsale-listing li{
+   float: left;
+   width: 33%;
+   padding-left: 0.3%;
+}
+
+.onsale-listing li:last-child{
+    padding-right: 0;
+}
+.onsale-listing li img{
+    width: 100%;
+}
+
+.onsale-1, .onsal-2, .onsale-3{
+position: relative;
+}
+
+.on-sale-banner{
+position: absolute;
+left:25%;
+top:40%;
+}
 
 
 
@@ -205,11 +209,18 @@
 
     /************Body Third*******/
 
+.body-third-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
     .new-arrivals{
-    width:67.368421%;
+    width:75%;
     margin:0 auto;
     overflow: hidden;
 }
+
+    /******New Arrival Header ********/
+
     .new-arrivals-header{
     display: block;
     overflow: hidden;
@@ -223,8 +234,8 @@
     .arrivals-left{
     width: 50%;
     float: left;
-    padding-top: 5%;
-    padding-bottom: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     font-size: x-large;
     }
 
@@ -242,8 +253,8 @@
     .arrivals-right{
             width: 50%;
             float: right;
-            padding-top:2.5%;
-            padding-bottom: 2.5%;
+            padding-top:3%;
+            padding-bottom: 3%;
             text-align: end;
     }
     .arrivals-right a{
@@ -252,144 +263,162 @@
     border: 1px solid  #bfbac1 ;
     }
 
+    /***********Arrival Content ************/
 
-    .new-arrival-content img{
-        max-width: 100%;
-    }
-    
-    .new-arrival-content ul{
+.new-arrival-content{
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+}
+.new-arrival-content ul{
+    list-style-type: none;
+}
+.new-arrival-content ul li{
+    padding-bottom: 5%;
+}
+
+
+    .new-arrival-listing {
         list-style: none;
-        
-    }
-    .new-arrival-content li{
-        float: left;
-        padding-left: 5%;
-        background-color:#ebe7df;
-    }
+        overflow: hidden; 
+   }
 
-    .na2{
-        position: relative;
-    }
+   .new-arrival-listing li{
+      float: left;
+      width: 30%;
+      margin-left:1%;
+      margin-right: 1%;
+      background-color: white;
 
-    .na-banner{
-        position: absolute;
-        top:0%;
-        left:25%;
-    }
+   }
+
+   .new-arrival-listing li img{
+       width: 80%;
+   }
+   
+  .new-arrival-1{
+      position: relative;
+      border-bottom:solid 0.5px silver;
+     
+  }
+  .price-tag img{
+      max-width: 100%;
+  }
+  .price-tag{
+      position: absolute;
+      left: 2%;
+      top:95%;
+  }
+
+  .desc{
+    position: absolute;
+    left: 40%;
+    top:102%;
+    background-color: white;
+  }
 
 
+  .desc a:hover{
+      color: #3ecf93;
+  }
+
+  .desc a{
+      color: black;
+      font-size: medium;
+  }
+
+
+  .banner-out{
+    position: absolute;
+    left: 80%;
+    top:0%;
+  }
+ 
+  .os2{
+    position: absolute;
+    left: 80%;
+    top:0%;
+  }
+  
 
 
 
 
     /************Body Fifth*******/
 
-    .body-fifth-wrapper{
-        width: 100%;
-        overflow:hidden;
-        padding-top: 5%;
-        background-color:#ebe7df;
-        padding-bottom: 5%;
-    }
-    .body-fifth-container{
-        width:67.368421%;
-        margin:0 auto;
-        overflow: hidden;
-    }
+    /************Body last*******/
+.body-last-wrapper{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #ebe7df;
+}
+.body-last-container{
+    width:75%;
+    margin:0 auto; 
+    overflow: hidden;   
+}
+.body-last-left{
+    width: 46.290801%;
+    float: left;
+    background-color:#ebe7df;
+    overflow: hidden;
+}
+.span1_of_2{
+    width: 46.794871%;
+    float: left;
+    padding-right: 6.410256%;
+    overflow: hidden;
+    background-color: #dfdbd4;
+    padding-left: 3%;
+}
+.span2_of_2{
+    width: 46.794871%;
+    float: left;
+    overflow: hidden;
+    background-color: #dfdbd4;
+    margin-left:6%;
+    padding-left: 3%;
+    padding-bottom: 6%;
+}
+.body-last-right{
+width:53.709199% ;
+background-color: #dfdbd4;
+float: right;
+overflow: hidden;
+padding-top: 1%;
+padding-bottom: 5%;
+}
 
-        .fifth-left{
-        float: left;
-        width: 40%;
-        }
-    
-        .fift-left-l{
-            padding: 0%;   
-            background-color:#ebe7df;
-        }
-        .fift-left-r{
-            background-color:#ebe7df;
-            padding: 0%;
-        }
-    
-        .fift-left-l{
-            float: left;
-            width:45%;
-            margin-left: 2.5%;
-            margin-right:2.5%;
-            padding-top: 2%;
-            padding-bottom: 4%;
-            background-color:#dfdbd4;
-            }
-            .fift-left-r{
-            float: right;
-            width:45%;
-            margin-left: 2.5%;
-            margin-right:2.5%;
-            padding-top: 2%;
-            background-color:#dfdbd4; 
-            padding-bottom:8.5%;
-            }
+.body-last-header{
+    padding-left: 5%;
+}
 
-            .fifthr-header{
-                display: block;
-                width: 100%;
-                }
-                .ffl-con{
-                padding: 3%;
-                }
-                .fifth-right{
-                    display: block;
-                }
-                .fifth-right{
-                    float:right;
-                    width: 55%;
-                    background-color: #dfdbd4;
-                    padding-bottom: 8%;    
-                    margin-left: 5%;
-                    }
-                .fifthr-header{
-                    display: block;
-                }
-                .fifth-right-l{
-                   width:20%;
-                   float:left;
-                   text-align: start;
-                }
-                .fifth-right-r{
-                    width:80%;
-                    float:left;
-                    text-align: start;
-                    padding-bottom: 5.6%;
-                    
-                }
-                .fifth-right-1con{
-                    padding-top: 20%;
-                    padding-left: 3%;
-                }
-                
-                .img-2{
-                    padding-top: 15%;
-                }
-                
-                .cont-1{
-                    padding-top: 4%;
-                }
-                
-                
-                .cont-1 a{ 
-                    text-decoration: none;
-                    padding-top: 4%;
-                    color: black;
-                }
-                
-                .cont-2{
-                    padding-top: 2%;
-                }
-                .cont-2 a{
-                    text-decoration: none;
-                    color:black;
-                    padding-top: 2%;
-                }
+.date1{
+    width: 7%;
+    float: left;
+    padding-left: 2%;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.date-text{
+    width:85%;
+    float: left;
+    overflow: hidden;
+    padding-left: 2%;
+   
+}
+.date_text a{
+    text-decoration: none;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
 
                 /************Body sixth*******/
 
@@ -588,7 +617,7 @@ text-decoration: none;
 color: silver;
 }
 
-.
+
    
 
 

@@ -106,7 +106,7 @@ li a:hover {
 .onsale-listing img{
     max-width: 100%;
 }
-.onsale-1{
+.onsale-1, .onsale-2, .onsale-3{
     position: relative;
 }
 .on-sale-banner{
@@ -114,6 +114,7 @@ li a:hover {
     top:30%;
     left:20%
 }
+
 
 
 /************Body Third*******/
@@ -133,73 +134,92 @@ li a:hover {
     color:silver;
     font-size: large;
 }
-
-.new-arrival-list{
-    margin-top: 5%;
+.new-arrival-content{
+    width: 100%;
+    padding: 5%;
+    text-align: center;
 }
 
 .new-arrival-content ul{
-    list-style-type:none;
+    list-style-type: none;
+    margin-left: 5%;
 }
-.new-arrival-content a{
-    text-decoration: none;
-}
-
-.price-name{
-    width: 100%;
-    overflow: hidden;
-    border-top: 1px solid grey;
-}
-.price{
-    float: left;
-    width: 40%;    
-}
-.name{
-    float: left;
-    width: 60%;
-    padding-top: 7%;
-    text-align: start; 
+.new-arrival-content ul li{
+    padding-bottom: 20%;
 }
 
-.na2{
+
+
+.new-arrival-1{
     position: relative;
+    background-color: white;
+    margin: 1%;
 }
-
-.na-banner{
+.price-tag{
     position: absolute;
-    top:0%;
-    left:40%;
+    left: 5%;
+    top:80%;
+}
+
+.desc{
+  position: absolute;
+  left: 30%;
+  top:110%;
+  
+}
+.desc a{
+    font-size: x-large;
+    text-decoration: none;
+    font-style: italic;
+    color: #3ecf93;
+}
+
+
+.banner-out{
+  position: absolute;
+  left: 80%;
+  top:0%;
+}
+
+.os2{
+  position: absolute;
+  left: 80%;
+  top:0%;
 }
 
 
 
 
-/************Body Fifth*******/
 
-.fith-left{
-    overflow: hidden;
- }
- 
- .fift-left-l{
-     padding: 5%;   
-     background-color:#ebe7df;
- }
- .fift-left-r{
-     background-color:#ebe7df;
-     padding: 5%;
- }
- .fith-right{
-     width:100%;
-     overflow: hidden;
- }
- .ffl-con{
-     padding-top: 5%;
- }
- 
- .fifth-right{
-     display: none;
- }
 
+
+/************Body Last*******/
+
+
+.body-last-wrapper{
+    background-color: #efebe8;
+}
+.body-last-left{
+    background-color: #dfdbd4;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.span1_of_2 h2{
+    padding: 5%;
+}
+
+.span2_of_2 h2{
+    padding: 5%;
+}
+
+.span1_of_2 p{
+    font-style: italic;
+}
+
+.span2_of_2 p{
+    font-style: italic;
+}
 
  /************Body sixth*******/
 
